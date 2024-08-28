@@ -9,7 +9,7 @@ df = pd.read_csv('vehicles_us.csv')
 columns_to_replace = ['model_year', 'cylinders', 'odometer', 'paint_color', 'is_4wd']
 
 for column in columns_to_replace:
-    df[column] = df[column].fillna('NaN')
+    df[column] = df[column].fillna('Unknown')
     
 st.header('Data viewer')
 st.dataframe(df)

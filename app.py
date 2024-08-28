@@ -4,12 +4,6 @@ import pandas as pd
 import plotly.express as px
 
 df = pd.read_csv('vehicles_us.csv')
-
-#looping over column names and replacing missing values with 'unknown'
-columns_to_replace = ['model_year', 'cylinders', 'odometer', 'paint_color', 'is_4wd']
-
-for column in columns_to_replace:
-    df[column] = df[column].fillna('Unknown')
     
 st.header('Data viewer')
 st.dataframe(df)

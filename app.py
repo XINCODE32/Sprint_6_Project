@@ -17,6 +17,6 @@ st.header('Compare price distribution between condition and type')
 fig_1 = px.histogram(df, x= 'condition', y= 'price', color= type)
 st.write(fig_1)
 
-st.header('Compare condition between model year and odometer')
-fig_2 = px.scatter(df, x='model_year', y= 'condition', color= 'cylinders', marginal_x= "box", marginal_y= "violin")
+st.header('Compare price distribution between model year and odometer')
+fig_2 = px.scatter(df, x='model_year', y= 'odometer', color= 'condition', marginal_x= "box", marginal_y= "violin")
 st.write(fig_2)

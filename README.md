@@ -12,3 +12,6 @@ The project folder’s root level contains following files and directories:
 `'README.md'` - Project guides file
 `'requirements.txt'` - Python packages (pandas==1.3.1, scipy==1.6.2, streamlit==1.12.2, altair<5, plotly==5.15.0)
 `'vehicles_us.csv'` - Dataset
+
+The link for GitHub repository: https://github.com/XINCODE32/Sprint_6_Project.git
+The link for wep application dashboard: https://sprint-6-project-xn66.onrender.com

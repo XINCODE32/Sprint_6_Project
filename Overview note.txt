@@ -1,0 +1,3 @@
+The ipynb should contain a project with a title, introduction, comments along the way, with a final output:
+I added new comments and changed the title. The ipynb contains introduction so I didn't touch that part.
+I have made some changes on gragh codes so we can see the charts on Jupyter Notebook as well.
